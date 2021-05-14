@@ -5,7 +5,7 @@ namespace BuilderPattern
 {
   public class ComputerDisplay
   {
-    public string Display(List<object> parts)
+    public static string Display(List<object> parts)
     {
       StringBuilder stringBuilder = new StringBuilder();
       stringBuilder.Append("Computer Parts: ");

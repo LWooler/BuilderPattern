@@ -2,7 +2,7 @@ namespace BuilderPattern
 {
   public class Director
   {
-    public IBuilder _builder;
+    private IBuilder _builder;
 
     public Director(IBuilder builder)
     {
