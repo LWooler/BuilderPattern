@@ -2,11 +2,14 @@
 
 namespace BuilderPattern
 {
-    class Program
+  class Program
+  {
+
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+      Director direct = new Director(new ComputerBuilder());
+
+      direct.BuildGamingComputer();
     }
+  }
 }
